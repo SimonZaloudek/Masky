@@ -1,0 +1,58 @@
+﻿@page "/quiz"
+@using Masky.Models
+@using Masky.Services
+@inject QuizService quiz
+@inject NavigationManager Nav
+
+@if (quiz.IsFinished)
+{
+    Nav.NavigateTo("/result");
+}
+else
+{
+    var question = quiz.Questions[quiz.CurrentIndex];
+    var progress = (int)(((double)(quiz.CurrentIndex) / quiz.Questions.Count) * 100);
+
+    <div class="quiz-container">
+        <div class="quiz-overlay">
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill" style="width:@($"{progress}%")"></div>
+            </div>
+
+            <div class="quiz-content">
+                <h2 class="quiz-question">@question.Text</h2>
+
+                @foreach (var answer in question.Answers)
+                {
+                    <button class="quiz-answer-button @(SelectedAnswer == answer ? "selected" : "")"
+                            @onclick="() => SelectAnswer(answer)">
+                        @answer.Text
+                    </button>
+                }
+                <div class="next-button-container">
+                    <button @onclick="NextQuestion" class="next-button">
+                        <span>&gt;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private Answer? SelectedAnswer;
+
+    private void NextQuestion()
+    {
+        if (SelectedAnswer != null)
+        {
+            quiz.SubmitAnswer(SelectedAnswer);
+            SelectedAnswer = null;
+        }
+    }
+
+    private void SelectAnswer(Answer answer)
+    {
+        SelectedAnswer = answer;
+    }
+}
