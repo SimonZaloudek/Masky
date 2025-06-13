@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\wwwroot\\images\\maskbcg1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|solutionrelative:masky\\wwwroot\\images\\maskbcg1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\pages\\result.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|solutionrelative:masky\\pages\\result.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|solutionrelative:masky\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\wwwroot\\images\\maskbcg1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|solutionrelative:masky\\wwwroot\\images\\maskbcg1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\pages\\quiz.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,20 +57,23 @@
               "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "maskbcg1.jpg",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\wwwroot\\images\\maskbcg1.jpg",
               "RelativeDocumentMoniker": "Masky\\wwwroot\\images\\maskbcg1.jpg",
               "ToolTip": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\wwwroot\\images\\maskbcg1.jpg",
               "RelativeToolTip": "Masky\\wwwroot\\images\\maskbcg1.jpg",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-06-13T22:08:23.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T22:08:23.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "Masky\\wwwroot\\css\\app.css",
@@ -78,8 +81,7 @@
               "RelativeToolTip": "Masky\\wwwroot\\css\\app.css",
               "ViewState": "AgIAAJ0AAAAAAAAAAAAswLQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-13T20:01:02.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T20:01:02.023Z"
             },
             {
               "$type": "Document",
@@ -91,8 +93,7 @@
               "RelativeToolTip": "Masky\\Pages\\Index.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T23:55:34.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T23:55:34.345Z"
             },
             {
               "$type": "Document",
@@ -104,18 +105,17 @@
               "RelativeToolTip": "Masky\\Pages\\Quiz.razor",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T23:56:02.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T23:56:02.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Result.razor",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\Pages\\Result.razor",
               "RelativeDocumentMoniker": "Masky\\Pages\\Result.razor",
               "ToolTip": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\Pages\\Result.razor",
               "RelativeToolTip": "Masky\\Pages\\Result.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-13T00:02:56.393Z",
               "EditorCaption": ""
@@ -130,8 +130,7 @@
               "RelativeToolTip": "Masky\\Services\\QuizService.cs",
               "ViewState": "AgIAAHYAAAAAAAAAAAAcwCsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T00:00:05.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T00:00:05.927Z"
             },
             {
               "$type": "Document",

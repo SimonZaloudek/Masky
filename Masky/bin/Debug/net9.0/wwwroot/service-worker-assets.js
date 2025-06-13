@@ -1,17 +1,17 @@
 self.assetsManifest = {
-  "version": "UU8zmpzg",
+  "version": "uT0/MOmd",
   "assets": [
     {
       "hash": "sha256-ZJwRynyx9+YN5kj27WGCtSwF3eoigZb9AfUJQkLvb9k=",
       "url": "Masky.styles.css"
     },
     {
-      "hash": "sha256-SpzVHppTwvrH1RQz6KQ1VPFmXeKt1/a8JDm2XlyJr/E=",
-      "url": "_framework/Masky.afx2yrii24.wasm"
+      "hash": "sha256-i9x5/Qm5QJp7Gq0pFrD0xXNWwZnPpDJQHSoj9yHYaVw=",
+      "url": "_framework/Masky.nlkp8sr841.pdb"
     },
     {
-      "hash": "sha256-83Ld3JAJ5EQUc+poIOL4tl3t2/pmqNtapY/GSWOzqLM=",
-      "url": "_framework/Masky.jkxghdab4j.pdb"
+      "hash": "sha256-N+wAEi/jBVQz+nvto9hJc6NyKzEmHd+8NPkq0FC4zME=",
+      "url": "_framework/Masky.r7q6m3qvfu.wasm"
     },
     {
       "hash": "sha256-Y3fgwAJNQ1yRlUO/TmUUh+77TdIqc7iddqjEvPR8SYc=",
@@ -770,7 +770,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.u25hol0de4.wasm"
     },
     {
-      "hash": "sha256-TkDQ7M1gm6zu+Wcbw5Wcf/ueGK0Z6lZS0zCWXsp+nG8=",
+      "hash": "sha256-tMiRSzJ9/AsSNu9qtG4SRQr2/8t2zDcCECAKl3Ek5nQ=",
       "url": "_framework/blazor.boot.json"
     },
     {

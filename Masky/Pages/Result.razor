@@ -8,12 +8,14 @@
     <div class="result-box">
         <h2 class="text-2xl font-bold mb-4">Tvoja maska je:</h2>
 
-        <h1 class="text-4xl font-extrabold mb-4">@MainMask.ToString()</h1>
+        <h1 class="text-4xl font-extrabold mb-3">@MainMask.ToString()</h1>
 
-        <div class="flex justify-center px-4 my-4">
-            <img src="@GetImagePath(MainMask)"
-                 alt="Mask image"
-                 class="w-full max-w-xs h-auto object-contain rounded-lg" />
+        <div class="w-100 px-2 my-2 mb-2">
+            <div class="position-relative ratio ratio-1x1 rounded overflow-hidden">
+                <img src="@GetImagePath(MainMask)"
+                     alt="Mask image"
+                     class="img-fluid w-100 h-100 p-2 object-fit-contain" />
+            </div>
         </div>
        
         <div class="text-left text-sm">
