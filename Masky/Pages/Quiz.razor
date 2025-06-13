@@ -30,7 +30,7 @@ else
                     </button>
                 }
                 <div class="next-button-container">
-                    <button @onclick="NextQuestion" class="next-button">
+                    <button @onclick="NextQuestion" class="next-button @(isClicked ? "clicked" : "")">
                         <span>&gt;</span>
                     </button>
                 </div>
@@ -41,9 +41,16 @@ else
 
 @code {
     private Answer? SelectedAnswer;
+    private bool isClicked = false;
 
-    private void NextQuestion()
+    private async Task NextQuestion()
     {
+        isClicked = true;
+        StateHasChanged();
+
+        await Task.Delay(100);
+        isClicked = false;
+
         if (SelectedAnswer != null)
         {
             quiz.SubmitAnswer(SelectedAnswer);

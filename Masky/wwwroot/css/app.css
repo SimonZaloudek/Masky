@@ -152,8 +152,66 @@ html, body {
     transition: background-color 0.3s ease;
 }
 
+.next-button.clicked {
+    background-color: white;
+    color: brown;
+}
+
 /* RESULT */
 
+.result-container {
+    background-color: darkcyan;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-box {
+    background-color: #562a12;
+    width: 85%;
+    max-width: 400px;
+    border-radius: 60px 60px 40px 40px;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.mask-name {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.description {
+    margin: 1rem 0;
+}
+
+.restart-button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.restart-button:hover {
+    background-color: white;
+    color: #4e2d1e;
+}
+
+
+/* BLAZOR */
 .valid.modified:not([type=checkbox]) {
     outline: 1px solid #26b050;
 }

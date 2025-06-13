@@ -1,22 +1,54 @@
-﻿<h3>Result</h3>
-
-@page "/result"
+﻿@page "/result"
 @using Masky.Models
 @using Masky.Services
 @inject QuizService quiz
 @inject NavigationManager Nav
 
-<h2>Tvoja maska je: <strong>@quiz.GetResult()</strong></h2>
+<div class="result-container">
+    <div class="result-box">
+        <h2 class="text-2xl font-bold mb-4">Tvoja maska je:</h2>
 
-<p class="mt-3">
-    @GetDescription(quiz.GetResult())
-</p>
+        <h1 class="text-4xl font-extrabold mb-4">@MainMask.ToString()</h1>
 
-<div class="mt-4">
-    <button class="btn btn-secondary" @onclick="Restart">Spusti znova</button>
+        <div class="flex justify-center px-4 my-4">
+            <img src="@GetImagePath(MainMask)"
+                 alt="Mask image"
+                 class="w-full max-w-xs h-auto object-contain rounded-lg" />
+        </div>
+       
+        <div class="text-left text-sm">
+            <p><strong>@MainMask:</strong> @MainPercentage% — @GetDescription(MainMask)</p>
+            <p class="mt-2"><strong>@SecondMask:</strong> @SecondPercentage% — @GetDescription(SecondMask)</p>
+        </div>
+
+        <button class="mt-6 btn btn-secondary" @onclick="Restart">Spusti znova</button>
+    </div>
 </div>
 
 @code {
+    private MaskType MainMask;
+    private MaskType SecondMask;
+    private int MainPercentage;
+    private int SecondPercentage;
+
+    protected override void OnInitialized()
+    {
+        var resultData = quiz.GetResultBreakdown();
+        var sorted = resultData.OrderByDescending(x => x.Value).ToList();
+
+        MainMask = sorted[0].Key;
+        MainPercentage = ToPercentage(sorted[0].Value, resultData);
+
+        SecondMask = sorted.Count > 1 ? sorted[1].Key : sorted[0].Key;
+        SecondPercentage = sorted.Count > 1 ? ToPercentage(sorted[1].Value, resultData) : 0;
+    }
+
+    int ToPercentage(int value, Dictionary<MaskType, int> data)
+    {
+        int total = data.Values.Sum();
+        return total == 0 ? 0 : (int)Math.Round((double)value / total * 100);
+    }
+
     string GetDescription(MaskType type) => type switch
     {
         MaskType.Turon => "Turoň – veselý, hlučný, extrovertný.",
@@ -24,6 +56,15 @@
         MaskType.Diabol => "Diabol – provokatér, rebelský typ.",
         MaskType.Smrt => "Smrť – melancholický, uzavretý.",
         _ => ""
+    };
+
+    string GetImagePath(MaskType type) => type switch
+    {
+        MaskType.Turon => "images/maskbcg1.jpg",
+        MaskType.Zobrak => "images/maskbcg1.jpg",
+        MaskType.Diabol => "images/maskbcg1.jpg",
+        MaskType.Smrt => "images/maskbcg1.jpg",
+        _ => "images/maskbcg1.jpg"
     };
 
     void Restart()

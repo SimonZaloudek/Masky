@@ -30,9 +30,15 @@ namespace Masky.Services
             CurrentIndex++;
         }
 
+
         public MaskType GetResult()
         {
             return _score.OrderByDescending(kvp => kvp.Value).First().Key;
+        }
+
+        public Dictionary<MaskType, int> GetResultBreakdown()
+        {
+            return new Dictionary<MaskType, int>(_score);
         }
 
         private void InitQuestions()
