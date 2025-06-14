@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "KZewe/wJ",
+  "version": "yg+QL1j/",
   "assets": [
     {
       "hash": "sha256-ZJwRynyx9+YN5kj27WGCtSwF3eoigZb9AfUJQkLvb9k=",
       "url": "Masky.styles.css"
     },
     {
-      "hash": "sha256-0Dgov9XdSkGMdwek/cVhb0vrPB1zasi8xXVD06ebOf8=",
-      "url": "_framework/Masky.kny7s4j3td.wasm"
+      "hash": "sha256-kRnO0VWLZ0DMDHo7hJNxg9E5RQjDhd+JYo9jgk7h2kw=",
+      "url": "_framework/Masky.rdk58iu60y.wasm"
     },
     {
       "hash": "sha256-Pez03BohrvL4ngASIT3phdGymYzkqc8gDfSzw6sabS0=",
@@ -66,16 +66,16 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.JSInterop.trga4cqfu3.wasm"
     },
     {
+      "hash": "sha256-uf6dj6Ns39ArYpRBh3Q3zqp4x6evNkRcU5sMYeHAY2c=",
+      "url": "_framework/System.Collections.5lkq0h3o3c.wasm"
+    },
+    {
       "hash": "sha256-mvV0c1ddguDQsM1inyYa3RG6pwBD3pAMQUvcX7c9UnY=",
       "url": "_framework/System.Collections.Concurrent.uammomwfay.wasm"
     },
     {
       "hash": "sha256-ZdGRjVVAtZbDjCPrc1YugCn0rmzVykm4damg03XAww0=",
       "url": "_framework/System.Collections.Immutable.nhu5dmkq7j.wasm"
-    },
-    {
-      "hash": "sha256-7z3e8RbYzSpOwq1XJ12Gmz0d5DvQY+hMdP59EhT3D/E=",
-      "url": "_framework/System.Collections.rhnopu4a20.wasm"
     },
     {
       "hash": "sha256-7n7ghIpXsa9b0B2ogCKFeKszbubZfTop3s6xAVOqZ9I=",
@@ -90,8 +90,8 @@ self.assetsManifest = {
       "url": "_framework/System.IO.Pipelines.ij3x2x6ncl.wasm"
     },
     {
-      "hash": "sha256-Be/+XtVjeVEvuob8tg86coN0Rao0N9G9BjKW7WI6Mvw=",
-      "url": "_framework/System.Linq.dmadwid4x1.wasm"
+      "hash": "sha256-wQEWuwzZHtImfbkDLhTwT8Xm5BmVwQ1Mb7MRqOhgn84=",
+      "url": "_framework/System.Linq.1gw2p6uu8z.wasm"
     },
     {
       "hash": "sha256-vNeDdoRRdSiX7LqJuHZZuiImIjaK18jzznPDNCrspfo=",
@@ -106,8 +106,8 @@ self.assetsManifest = {
       "url": "_framework/System.Net.Primitives.wkdrl9qd6u.wasm"
     },
     {
-      "hash": "sha256-/oj0WTAw476nQ4NY+HuVVje1vSX4wdv6iW/mQewCG4c=",
-      "url": "_framework/System.Private.CoreLib.edqavdctdk.wasm"
+      "hash": "sha256-yQPjW3UCB3pPPTarSn/f/sW0Ipwkn0VNsCLTkDBx0b8=",
+      "url": "_framework/System.Private.CoreLib.l1tr8scinr.wasm"
     },
     {
       "hash": "sha256-DIGWcS3dGWI0QRXSij/vF4UqbcymxXIhopB+STSN7qQ=",
@@ -118,8 +118,8 @@ self.assetsManifest = {
       "url": "_framework/System.Runtime.InteropServices.JavaScript.y36s1wmxlz.wasm"
     },
     {
-      "hash": "sha256-wf983YET4OO7a1oaQhBXhQEgBOl/JZcW19vKQw3nzqc=",
-      "url": "_framework/System.Runtime.r1cx9f86ns.wasm"
+      "hash": "sha256-1iEgp7BVK6XQp9blBiynGhSC7hX7sno+NO0Al5wS/g8=",
+      "url": "_framework/System.Runtime.iyh11r2ngg.wasm"
     },
     {
       "hash": "sha256-3cJRUrFjSoiaGlI3OmHNndawtN8Y5lEgLHYI76jlAvo=",
@@ -134,7 +134,7 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.3zydt3n8n9.wasm"
     },
     {
-      "hash": "sha256-41IaBWAIgqUXHK0vDRfz2VZaGMqYuWoRbC2MQO6g7eE=",
+      "hash": "sha256-dq4iC7Arylf3a2kxvns4pblRVe9ab3WZtt9GX95gapg=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -146,8 +146,8 @@ self.assetsManifest = {
       "url": "_framework/dotnet.js"
     },
     {
-      "hash": "sha256-pJf4phBHKYcRcB4UaMAZkCx8g/xprRc6s2ig9GiFuY8=",
-      "url": "_framework/dotnet.native.g5inc4sggg.wasm"
+      "hash": "sha256-iqTNkWGnBQwT5cZvO9ybt0VMuwZRBJ/U12GV1bUgc9Q=",
+      "url": "_framework/dotnet.native.ml8w5ja3bc.wasm"
     },
     {
       "hash": "sha256-3oEpHHwXjDvW7IlI/BHXP9Dgr63VKZqSl/S8qlnxNRg=",
@@ -170,7 +170,7 @@ self.assetsManifest = {
       "url": "_framework/icudt_no_CJK.lfu7j35m59.dat"
     },
     {
-      "hash": "sha256-S3cFglGF2RT2pSKpmswe10cVeMvFeEuLzhebXhf3EeU=",
+      "hash": "sha256-GE0GQcdySQCVr6vQLYr3lRP7Umay6dpV8iLTdEGXufg=",
       "url": "css/app.css"
     },
     {
@@ -186,7 +186,7 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-bgO8+k7Cz61pFxlaKvEuJ0gbU2duKNM7FrmzyzjUfnc=",
+      "hash": "sha256-0NUD+E8nY2nzYBGsWgo0dwtHCJolqVH6AZzKa1UOm8I=",
       "url": "images/maskbcg1.jpg"
     },
     {

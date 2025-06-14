@@ -1,61 +1,92 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts//SFProDisplay-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Bold';
+    src: url('/fonts//SFProDisplay-Bold.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'SF Pro Display', Helvetica, Arial;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
 }
 
+
+
 /* MENU */
 .menu-container {
-    background-color: darkred;
+    background-image: url('/images/background.png');
+    background-size: cover;
+    background-position: center;
     height: 100vh;
-    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding-bottom: 5vh;
+    min-width: 259px;
+    min-height: 581px;
 }
 
-.structure-placeholder {
-    background-color: black;
-    width: 80%;
-    height: 60vh;
-    border-radius: 60px 60px 40px 40px;
+.structure-image {
+    background-image: url('/images/canvas1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    max-width: 290px;
+    min-width: 259px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     padding: 2rem 1rem;
-    color: white;
+    box-sizing: border-box;
 }
 
 .text-overlay {
     text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 1rem;
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
+    color: white;
     margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    text-align: left;
 }
 
 .subtitle {
     font-size: 1rem;
+    color: white;
     margin-bottom: 1rem;
+    margin-left: 0.6rem;
+    text-align: left;
 }
 
 .start-button {
     margin-top: 1rem;
-    padding: 0.75rem 2rem;
-    font-size: 1.1rem;
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1.3rem;
+    font-size: 1rem;
     font-weight: bold;
     border-radius: 999px;
     background-color: white;
-    color: black;
+    color: #423724;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -65,9 +96,11 @@ html, body {
     background-color: #333;
 }
 
+
+
 /* QUIZ */
 .quiz-container {
-    background-color: lavender; 
+    background-color: lavender;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -75,7 +108,7 @@ html, body {
 }
 
 .quiz-overlay {
-    background-color: #562a12; 
+    background-color: #562a12;
     width: 85%;
     max-width: 400px;
     border-radius: 60px 60px 40px 40px;
@@ -152,10 +185,11 @@ html, body {
     transition: background-color 0.3s ease;
 }
 
-.next-button.clicked {
-    background-color: white;
-    color: brown;
-}
+    .next-button.clicked {
+        background-color: white;
+        color: brown;
+    }
+
 
 /* RESULT */
 

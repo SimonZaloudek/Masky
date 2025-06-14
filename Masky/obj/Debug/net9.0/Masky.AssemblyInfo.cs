@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Masky")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a762a38a97e74423a6a521ed75beb3870edec72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f804e000075be0fc8198902923a6ff1790fd51a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Masky")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Masky")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Masky",
   "resources": {
-    "hash": "sha256-Na0uQXr3xY3jViljeBKcOMGfrz5il8U7vz5mw8BlcNM=",
+    "hash": "sha256-tdKWdgsWNsVAcGVhO7JNcgCOoBAIwclGYnRUtBrAEU4=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.phaa9r44xv.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.4o2vz6uw5j.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Masky.r7q6m3qvfu.wasm": "Masky.wasm",
-      "Masky.nlkp8sr841.pdb": "Masky.pdb"
+      "Masky.ganck7m0w5.wasm": "Masky.wasm",
+      "Masky.szc0terp89.pdb": "Masky.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.rtblh4npr3.js": "sha256-HyBzcYNpT2l19+f1bpjNOa1oFoLe3K4JIQ6GsFK5m6I="
@@ -412,10 +412,10 @@
       "WindowsBase.u25hol0de4.wasm": "sha256-CgB28KCiYKHd4yK6IM0PJ526P7IbRCpNkGTqn+cLwxs=",
       "mscorlib.brg9pkj3je.wasm": "sha256-FzZwzxUYYyg3qxc7Km8r50UKAmRWrIeckSFG1NTHKNU=",
       "netstandard.wuzd3f1y6v.wasm": "sha256-yAXc0deBIRkWTVXqADZfhgZtrxGgJCIbZYVtA0NjvdM=",
-      "Masky.r7q6m3qvfu.wasm": "sha256-N+wAEi/jBVQz+nvto9hJc6NyKzEmHd+8NPkq0FC4zME="
+      "Masky.ganck7m0w5.wasm": "sha256-GI9ciek3h7KVNxL2H9NIDghQgwZQnucrZ/G9Rx3XDhU="
     },
     "pdb": {
-      "Masky.nlkp8sr841.pdb": "sha256-i9x5/Qm5QJp7Gq0pFrD0xXNWwZnPpDJQHSoj9yHYaVw="
+      "Masky.szc0terp89.pdb": "sha256-yGaDQfUXkaIdrd2XLlGDydifDtBx4GxH7YaD53pUHV0="
     }
   },
   "cacheBootResources": true,

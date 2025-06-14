@@ -1,17 +1,17 @@
 self.assetsManifest = {
-  "version": "uT0/MOmd",
+  "version": "+3JKJKJD",
   "assets": [
     {
       "hash": "sha256-ZJwRynyx9+YN5kj27WGCtSwF3eoigZb9AfUJQkLvb9k=",
       "url": "Masky.styles.css"
     },
     {
-      "hash": "sha256-i9x5/Qm5QJp7Gq0pFrD0xXNWwZnPpDJQHSoj9yHYaVw=",
-      "url": "_framework/Masky.nlkp8sr841.pdb"
+      "hash": "sha256-GI9ciek3h7KVNxL2H9NIDghQgwZQnucrZ/G9Rx3XDhU=",
+      "url": "_framework/Masky.ganck7m0w5.wasm"
     },
     {
-      "hash": "sha256-N+wAEi/jBVQz+nvto9hJc6NyKzEmHd+8NPkq0FC4zME=",
-      "url": "_framework/Masky.r7q6m3qvfu.wasm"
+      "hash": "sha256-yGaDQfUXkaIdrd2XLlGDydifDtBx4GxH7YaD53pUHV0=",
+      "url": "_framework/Masky.szc0terp89.pdb"
     },
     {
       "hash": "sha256-Y3fgwAJNQ1yRlUO/TmUUh+77TdIqc7iddqjEvPR8SYc=",
@@ -770,7 +770,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.u25hol0de4.wasm"
     },
     {
-      "hash": "sha256-tMiRSzJ9/AsSNu9qtG4SRQr2/8t2zDcCECAKl3Ek5nQ=",
+      "hash": "sha256-8sak0+SBbRiD2awesJYFNF5XL/wkRD1QY6vi0dg2qHw=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -822,12 +822,20 @@ self.assetsManifest = {
       "url": "_framework/netstandard.wuzd3f1y6v.wasm"
     },
     {
-      "hash": "sha256-GE0GQcdySQCVr6vQLYr3lRP7Umay6dpV8iLTdEGXufg=",
+      "hash": "sha256-g7703HzVyFKQil/2fieKCpOTm1zwPTa47agSQ56oLIo=",
       "url": "css/app.css"
     },
     {
       "hash": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
       "url": "favicon.png"
+    },
+    {
+      "hash": "sha256-lHmBNxs2auEUpyKI59y+BMw+gln/wPHOM8HLwnXBiOY=",
+      "url": "fonts/SFProDisplay-Bold.woff2"
+    },
+    {
+      "hash": "sha256-oG1TglOPYXoNdr9kdDarXWK6LS5LkEZTCW/txOrcaYg=",
+      "url": "fonts/SFProDisplay-Regular.woff2"
     },
     {
       "hash": "sha256-DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=",
@@ -838,8 +846,16 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-0NUD+E8nY2nzYBGsWgo0dwtHCJolqVH6AZzKa1UOm8I=",
-      "url": "images/maskbcg1.jpg"
+      "hash": "sha256-Y9yHMO8YmcfqLQ9JEC8lv9hRK5oI+xNrwF8n4hj3KoE=",
+      "url": "images/background.png"
+    },
+    {
+      "hash": "sha256-D9JTqdEbCWAnt5qy3okD5tSdgB+pV/heF6i6nvDUtvQ=",
+      "url": "images/canvas1.png"
+    },
+    {
+      "hash": "sha256-qjiJ4u7LlGnxax7yTfAbVLNjYiY6XTUzwl22VMtzudc=",
+      "url": "images/canvas2.png"
     },
     {
       "hash": "sha256-R4EF6JKBIMMZES4h7RvybiGeT7z1vNt7nJds9k5UHjk=",
