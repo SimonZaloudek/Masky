@@ -6,6 +6,7 @@ wwwroot\icon-512.png
 wwwroot\images\background.png
 wwwroot\images\canvas1.png
 wwwroot\images\canvas2.png
+wwwroot\images\sipka.png
 wwwroot\index.html
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map

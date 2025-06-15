@@ -1491,13 +1491,9 @@ C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\ww
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
-C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\_framework\Masky.rdk58iu60y.wasm
-C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\_framework\Masky.ef1nmdcvkr.pdb
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\_framework\blazor.boot.json
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\service-worker.js
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\service-worker-assets.js
-C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\_framework\Masky.rdk58iu60y.wasm.gz
-C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\_framework\Masky.ef1nmdcvkr.pdb.gz
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\_framework\blazor.boot.json.gz
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\service-worker.js.gz
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\service-worker-assets.js.gz
@@ -1915,7 +1911,6 @@ C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\bl
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\blazor.boot.json
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\service-worker\service-worker-assets.js.build
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\service-worker\service-worker.js.build
-C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\p684lt24wr-k5mz8whvh1.gz
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\69jndzycrw-78a214fnue.gz
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\60v6albm5e-bqjiyaj88i.gz
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\4l07faf5xu-c2jlpeoesf.gz
@@ -2166,11 +2161,6 @@ C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\co
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\vimwmxrxv2-tjcz0u77k5.gz
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\5y3ztyzw2o-tptq2av103.gz
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\pz9ryyr7zb-lfu7j35m59.gz
-C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\52mptnuqt1-rdk58iu60y.gz
-C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\bvty7b6epn-ef1nmdcvkr.gz
-C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\gr1h4ksqw1-1rxq1grv2d.gz
-C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\msi05c8dp7-1b3db4d1we.gz
-C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\d1s6gyk7qh-7bmepix0fh.gz
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\staticwebassets.build.json
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\staticwebassets.build.json.cache
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\staticwebassets.development.json
@@ -2181,3 +2171,13 @@ C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\Ma
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\refint\Masky.dll
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\Masky.pdb
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\ref\Masky.dll
+C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\_framework\Masky.4exy49iv65.wasm
+C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\_framework\Masky.4ahyu3oc3f.pdb
+C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\_framework\Masky.4exy49iv65.wasm.gz
+C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\bin\Release\net9.0\wwwroot\_framework\Masky.4ahyu3oc3f.pdb.gz
+C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\p684lt24wr-dc4apdgsx2.gz
+C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\52mptnuqt1-4exy49iv65.gz
+C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\bvty7b6epn-4ahyu3oc3f.gz
+C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\gr1h4ksqw1-obnmyd0ezr.gz
+C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\msi05c8dp7-zwjaeu6ip2.gz
+C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\obj\Release\net9.0\compressed\d1s6gyk7qh-mhjy3dq87i.gz

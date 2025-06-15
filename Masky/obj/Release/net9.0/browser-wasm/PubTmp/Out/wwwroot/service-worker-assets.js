@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "yg+QL1j/",
+  "version": "l6qfpJnC",
   "assets": [
     {
       "hash": "sha256-ZJwRynyx9+YN5kj27WGCtSwF3eoigZb9AfUJQkLvb9k=",
       "url": "Masky.styles.css"
     },
     {
-      "hash": "sha256-kRnO0VWLZ0DMDHo7hJNxg9E5RQjDhd+JYo9jgk7h2kw=",
-      "url": "_framework/Masky.rdk58iu60y.wasm"
+      "hash": "sha256-jAUiNnG6oCYPlitJY18/xUp8i+cwNV2jSRK/OQb+Tck=",
+      "url": "_framework/Masky.4exy49iv65.wasm"
     },
     {
       "hash": "sha256-Pez03BohrvL4ngASIT3phdGymYzkqc8gDfSzw6sabS0=",
@@ -134,7 +134,7 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.3zydt3n8n9.wasm"
     },
     {
-      "hash": "sha256-dq4iC7Arylf3a2kxvns4pblRVe9ab3WZtt9GX95gapg=",
+      "hash": "sha256-GTPtyY/xrGcMp/njcdUPEfKmBFJz/bRtFxo9yraDJno=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -170,12 +170,20 @@ self.assetsManifest = {
       "url": "_framework/icudt_no_CJK.lfu7j35m59.dat"
     },
     {
-      "hash": "sha256-GE0GQcdySQCVr6vQLYr3lRP7Umay6dpV8iLTdEGXufg=",
+      "hash": "sha256-g7703HzVyFKQil/2fieKCpOTm1zwPTa47agSQ56oLIo=",
       "url": "css/app.css"
     },
     {
       "hash": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
       "url": "favicon.png"
+    },
+    {
+      "hash": "sha256-lHmBNxs2auEUpyKI59y+BMw+gln/wPHOM8HLwnXBiOY=",
+      "url": "fonts/SFProDisplay-Bold.woff2"
+    },
+    {
+      "hash": "sha256-oG1TglOPYXoNdr9kdDarXWK6LS5LkEZTCW/txOrcaYg=",
+      "url": "fonts/SFProDisplay-Regular.woff2"
     },
     {
       "hash": "sha256-DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=",
@@ -186,8 +194,16 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-0NUD+E8nY2nzYBGsWgo0dwtHCJolqVH6AZzKa1UOm8I=",
-      "url": "images/maskbcg1.jpg"
+      "hash": "sha256-Y9yHMO8YmcfqLQ9JEC8lv9hRK5oI+xNrwF8n4hj3KoE=",
+      "url": "images/background.png"
+    },
+    {
+      "hash": "sha256-D9JTqdEbCWAnt5qy3okD5tSdgB+pV/heF6i6nvDUtvQ=",
+      "url": "images/canvas1.png"
+    },
+    {
+      "hash": "sha256-qjiJ4u7LlGnxax7yTfAbVLNjYiY6XTUzwl22VMtzudc=",
+      "url": "images/canvas2.png"
     },
     {
       "hash": "sha256-R4EF6JKBIMMZES4h7RvybiGeT7z1vNt7nJds9k5UHjk=",
