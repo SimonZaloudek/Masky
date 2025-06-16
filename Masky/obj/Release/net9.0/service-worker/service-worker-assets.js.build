@@ -1,17 +1,17 @@
 self.assetsManifest = {
-  "version": "PJNKOq5y",
+  "version": "PRVa4kTK",
   "assets": [
     {
       "hash": "sha256-ZJwRynyx9+YN5kj27WGCtSwF3eoigZb9AfUJQkLvb9k=",
       "url": "Masky.styles.css"
     },
     {
-      "hash": "sha256-BCpj+LIqjyOj9ckwamNoiSoc78dODIsLVE5go1NKaDo=",
-      "url": "_framework/Masky.4ahyu3oc3f.pdb"
+      "hash": "sha256-uHhvQc+19B01WsabL0wbkGFhmmyk3hikoBSnmsO6AW8=",
+      "url": "_framework/Masky.c3w1c5mog1.pdb"
     },
     {
-      "hash": "sha256-jAUiNnG6oCYPlitJY18/xUp8i+cwNV2jSRK/OQb+Tck=",
-      "url": "_framework/Masky.4exy49iv65.wasm"
+      "hash": "sha256-MfP2JBFMsLUpbFOWl3HdtaEIs7io3SjHrMQYKt5//Yo=",
+      "url": "_framework/Masky.lzj0q15tps.wasm"
     },
     {
       "hash": "sha256-Y3fgwAJNQ1yRlUO/TmUUh+77TdIqc7iddqjEvPR8SYc=",
@@ -770,7 +770,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.u25hol0de4.wasm"
     },
     {
-      "hash": "sha256-bKqnF+vh/+3t3WPp5j2lP4SQ96FzFx4M4YhX1aVbz8Q=",
+      "hash": "sha256-1sMBeerwQBM9yqi/509yenXww8pKrO9eGMmBk16jYgk=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -822,7 +822,7 @@ self.assetsManifest = {
       "url": "_framework/netstandard.wuzd3f1y6v.wasm"
     },
     {
-      "hash": "sha256-g7703HzVyFKQil/2fieKCpOTm1zwPTa47agSQ56oLIo=",
+      "hash": "sha256-wAN9QP+4rz3ssPoCrVPfywuXfXgdpDTK2jtHM7XE7E4=",
       "url": "css/app.css"
     },
     {
@@ -858,7 +858,35 @@ self.assetsManifest = {
       "url": "images/canvas2.png"
     },
     {
-      "hash": "sha256-R4EF6JKBIMMZES4h7RvybiGeT7z1vNt7nJds9k5UHjk=",
+      "hash": "sha256-6IGXfRPD8e+ORWnCpNkNLGFeok1vc/BBZoCQ22X/flA=",
+      "url": "images/masks/luca.png"
+    },
+    {
+      "hash": "sha256-Ffxb5HQ5C3usOh+3/oOwM15obm4Trdzu3r8CrZBxENc=",
+      "url": "images/masks/medved.png"
+    },
+    {
+      "hash": "sha256-u9zsNweEpDzFvkkLfOVNnNKrcuOGv3NY1lX5n1H5SMU=",
+      "url": "images/masks/nevestazenich.png"
+    },
+    {
+      "hash": "sha256-ZpY/FaM2f2LnsM5/na53D22NqnlWYEUtGBE9+8vYMSs=",
+      "url": "images/masks/slama.png"
+    },
+    {
+      "hash": "sha256-oAQS/juSZ8/eJ5aXW626H6JJlBaSD2z51xt9KyDyTgA=",
+      "url": "images/masks/turon.png"
+    },
+    {
+      "hash": "sha256-HouLf3jHxRLBWswPzmW3OqLICJVdwM5Q67cKBHnfmIQ=",
+      "url": "images/masks/vodic.png"
+    },
+    {
+      "hash": "sha256-qlBbFyFhYFjMtjwP2h4HaRwXoJo8ILwBaLe+RL+sq7g=",
+      "url": "images/sipka.png"
+    },
+    {
+      "hash": "sha256-7oFdAZqgPachEzJ8VAJscEQ/BBPvKlTwxdeugbO0TVA=",
       "url": "index.html"
     },
     {

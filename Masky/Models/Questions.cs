@@ -3,9 +3,11 @@
     public enum MaskType
     {
         Turon,
-        Zobrak,
-        Diabol,
-        Smrt
+        Slama,
+        Medved,
+        Vodic,
+        NevestaZenich,
+        Luca
     }
 
     public class Answer

@@ -1,3 +1,4 @@
+wwwroot\css\app.css
 wwwroot\favicon.png
 wwwroot\fonts\SFProDisplay-Bold.woff2
 wwwroot\fonts\SFProDisplay-Regular.woff2
@@ -6,6 +7,12 @@ wwwroot\icon-512.png
 wwwroot\images\background.png
 wwwroot\images\canvas1.png
 wwwroot\images\canvas2.png
+wwwroot\images\masks\luca.png
+wwwroot\images\masks\medved.png
+wwwroot\images\masks\nevestazenich.png
+wwwroot\images\masks\slama.png
+wwwroot\images\masks\turon.png
+wwwroot\images\masks\vodic.png
 wwwroot\images\sipka.png
 wwwroot\index.html
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -54,7 +61,7 @@ wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 wwwroot\manifest.webmanifest
 wwwroot\sample-data\weather.json
-wwwroot\css\app.css
+C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\wwwroot\css\app.css
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\wwwroot\index.html
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -102,4 +109,3 @@ C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\wwwroot\lib\bootstrap
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\wwwroot\manifest.webmanifest
 C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\wwwroot\sample-data\weather.json
-C:\Users\simon\OneDrive\Programy\Programovanie\Masky\Masky\wwwroot\css\app.css

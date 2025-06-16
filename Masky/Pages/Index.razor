@@ -1,20 +1,40 @@
 ﻿@page "/"
 @inject NavigationManager Nav
+@inject IJSRuntime JS
 
-<div class="menu-container">
-    <div class="structure-image">
-        <div class="text-overlay">
-            <h1 class="title">Akú masku<br />nosíš?</h1>
-            <p class="subtitle">Zisti, ktorá tradičná maska<br />najviac vystihuje tvoju povahu.</p>
-        </div>
-        <button class="start-button @(isClicked ? "clicked" : "")" @onclick="OnStartClicked">
-            Začať
-        </button>
+@if (platform == "desktop")
+{
+    <div class="unsupported-message">
+        <p>Táto aplikácia je dostupná iba na zariadeniach iPhone a Android.</p>
     </div>
-</div>
+}
+else
+{
+    <div class="menu-container">
+        <div class="structure-image">
+            <div class="text-overlay">
+                <h1 class="title">Akú masku<br />nosíš?</h1>
+                <p class="subtitle">Zisti, ktorá tradičná maska<br />najviac vystihuje tvoju povahu.</p>
+            </div>
+            <button class="start-button @(isClicked ? "clicked" : "")" @onclick="OnStartClicked">
+                Začať
+            </button>
+        </div>
+    </div>
+}
 
 @code {
     bool isClicked = false;
+    string platform = "";
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            platform = await JS.InvokeAsync<string>("getPlatform");
+            StateHasChanged();
+        }
+    }
 
     async Task OnStartClicked()
     {

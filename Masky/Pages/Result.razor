@@ -6,24 +6,23 @@
 
 <div class="result-container">
     <div class="result-box">
-        <h2 class="text-2xl font-bold mb-4">Tvoja maska je:</h2>
+        <h2 class="result-title">Tvoja maska je</h2>
 
-        <h1 class="text-4xl font-extrabold mb-3">@MainMask.ToString()</h1>
+        <h1 class="mask-name">@GetWinnerName(MainMask)</h1>
 
-        <div class="w-100 px-2 my-2 mb-2">
-            <div class="position-relative ratio ratio-1x1 rounded overflow-hidden">
+        <div class="w-100 d-flex justify-content-center my-2">
+            <div class="fixed-mask-image rounded overflow-hidden">
                 <img src="@GetImagePath(MainMask)"
                      alt="Mask image"
-                     class="img-fluid w-100 h-100 p-2 object-fit-contain" />
+                     class="img-fluid w-100 h-100 object-fit-fill" />
             </div>
         </div>
        
-        <div class="text-left text-sm">
-            <p><strong>@MainMask:</strong> @MainPercentage% — @GetDescription(MainMask)</p>
-            <p class="mt-2"><strong>@SecondMask:</strong> @SecondPercentage% — @GetDescription(SecondMask)</p>
+        <div class="description">
+            <p>@((MarkupString)maskDescription)</p>
         </div>
 
-        <button class="mt-6 btn btn-secondary" @onclick="Restart">Spusti znova</button>
+        <button class="restart-button" @onclick="Restart">Spustiť znovu</button>
     </div>
 </div>
 
@@ -32,41 +31,58 @@
     private MaskType SecondMask;
     private int MainPercentage;
     private int SecondPercentage;
+    private string? maskDescription;
 
     protected override void OnInitialized()
     {
         var resultData = quiz.GetResultBreakdown();
+        maskDescription = GetDescription(MainMask);
         var sorted = resultData.OrderByDescending(x => x.Value).ToList();
 
         MainMask = sorted[0].Key;
-        MainPercentage = ToPercentage(sorted[0].Value, resultData);
-
-        SecondMask = sorted.Count > 1 ? sorted[1].Key : sorted[0].Key;
-        SecondPercentage = sorted.Count > 1 ? ToPercentage(sorted[1].Value, resultData) : 0;
     }
 
-    int ToPercentage(int value, Dictionary<MaskType, int> data)
-    {
-        int total = data.Values.Sum();
-        return total == 0 ? 0 : (int)Math.Round((double)value / total * 100);
-    }
 
-    string GetDescription(MaskType type) => type switch
+    string GetWinnerName(MaskType type) => type switch
     {
-        MaskType.Turon => "Turoň – veselý, hlučný, extrovertný.",
-        MaskType.Zobrak => "Žobrák – tichý pozorovateľ, introvert.",
-        MaskType.Diabol => "Diabol – provokatér, rebelský typ.",
-        MaskType.Smrt => "Smrť – melancholický, uzavretý.",
+        MaskType.Turon => "TUROŇ",
+        MaskType.Luca => "LÚCA",
+        MaskType.Slama => "SLAMA",
+        MaskType.NevestaZenich => "NEVESTA/ŽENÍCH",
+        MaskType.Vodic => "VODIČ",
+        MaskType.Medved => "MEDVEĎ",
         _ => ""
     };
 
+    string GetDescription(MaskType type)
+    {
+        return type switch
+        {
+            MaskType.Turon => "<strong>Vzhľad:</strong> Vyzeral ako vysoké zviera.<br>Mal veľkú hlavu, otváraciu papuľu,<br>rohy a zvonce, ktoré pri pohybe hrkali.<br><br><strong>Správanie:</strong> Turoň bol neposedný,<br>hlučný a divoký, často vbiehal do<br>domov, naháňal deti a robil neplechu.<br><br><strong>Funkcia:</strong> Symbolizoval plodnosť,<br>prebúdzanie života a jar. Jeho hlučné<br>správanie malo zahnať zlé sily a zimu.<br>Bol najživšia maska sprievodu.",
+
+            MaskType.Luca => "<strong>Vzhľad:</strong> Lucia je postava odetá<br>v bielej látke s bielou maskou.<br><br><strong>Správanie:</strong> Postava často mlčala.<br>To jej malo dodať nadprirodzenú<br>vážnosť a magickosť.<br><br><strong>Funkcia:</strong> Kontrolovala poriadok<br>v domácnostiach počas zimného<br>slnovratu. Symbolizovala očistu<br>a ochranu pred zlými silami,<br>démonmi a chorobami.",
+
+            MaskType.Slama => "<strong>Vzhľad:</strong> Maska slameníka bola celá<br>upletená zo slamy, často doplnená<br>drevenou alebo handrovou hlavou.<br><br><strong>Správanie:</strong> Zvyšky slamy niekedy<br>rozhadzoval po poli ako magický akt<br>na zabezpečenie dobrej úrody.<br><br><strong>Funkcia:</strong> Bol zosobnením plodnosti,<br>úrody a ochrany pred zlými silami.",
+
+            MaskType.NevestaZenich => "<strong>Vzhľad:</strong> Pár karikoval svadobný obrad,<br>často s prevrátenými rolami<br>(napr. muž ako nevesta a naopak).<br><br><strong>Správanie:</strong> Komické a teatrálne.<br>Napodobňovali svadobné rituály,<br>často preháňali a koketovali.<br><br><strong>Funkcia:</strong> Reprezentovali nový<br>začiatok, plodnosť a udržanie rodu,<br>ale zároveň slúžili na zosmiešnenie<br>spoločenských stereotypov.",
+
+            MaskType.Vodic => "<strong>Vzhľad:</strong> Zvyčajne bol oblečený<br>slávnostne alebo mal výrazný odev,<br>aby pôsobil autoritatívne.<br><br><strong>Správanie:</strong> Bol vážny, dôstojný,<br>ale aj zábavný. Komandoval masky<br>a dozeral, aby sa dodržiaval poriadok.<br><br><strong>Funkcia:</strong> Jeho úlohou bolo viesť sprievod,<br>zabávať domácnosti a sprostredkovať<br>významy masiek.",
+
+            MaskType.Medved => "<strong>Vzhľad:</strong> Maska bola celá z kožusiny<br>a niekedy bola doplnená drevenou hlavou medveďa.<br><br><strong>Správanie:</strong> Medveď sa pohyboval<br>ťažkopádne a hravo, tancoval,<br>váľal sa po zemi a vtipkoval s divákmi.<br><br><strong>Funkcia:</strong> Bol symbolom sily,<br>plodnosti a obrody. Jeho tanec mal<br>priaznivý význam pre úrodu a zdravie<br>v novom roku.",
+
+            _ => ""
+        };
+    }
+
     string GetImagePath(MaskType type) => type switch
     {
-        MaskType.Turon => "images/maskbcg1.jpg",
-        MaskType.Zobrak => "images/maskbcg1.jpg",
-        MaskType.Diabol => "images/maskbcg1.jpg",
-        MaskType.Smrt => "images/maskbcg1.jpg",
-        _ => "images/maskbcg1.jpg"
+        MaskType.Turon => "images/masks/turon.png",
+        MaskType.Luca => "images/masks/luca.png",
+        MaskType.Slama => "images/masks/slama.png",
+        MaskType.NevestaZenich => "images/masks/nevestazenich.png",
+        MaskType.Vodic => "images/masks/vodic.png",
+        MaskType.Medved => "images/masks/medved.png",
+        _ => ""
     };
 
     void Restart()

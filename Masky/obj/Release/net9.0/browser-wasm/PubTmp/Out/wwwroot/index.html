@@ -2,6 +2,18 @@
 <html lang="en">
 
 <head>
+    <script>
+        window.getPlatform = () => {
+            const ua = navigator.userAgent || navigator.vendor || window.opera;
+            if (/android/i.test(ua)) {
+                return "android";
+            }
+            if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) {
+                return "ios";
+            }
+            return "desktop";
+        };
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Masky</title>
