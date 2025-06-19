@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|solutionrelative:masky\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|solutionrelative:masky\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\wwwroot\\service-worker.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|solutionrelative:masky\\wwwroot\\service-worker.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|solutionrelative:masky\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|solutionrelative:masky\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -13,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\pages\\quiz.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|solutionrelative:masky\\pages\\quiz.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|solutionrelative:masky\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|solutionrelative:masky\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D1E983F-2A17-4C8C-90A3-1460CC049855}|Masky\\Masky.csproj|c:\\users\\simon\\onedrive\\programy\\programovanie\\masky\\masky\\pages\\result.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +58,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\Program.cs",
+              "RelativeDocumentMoniker": "Masky\\Program.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\Program.cs",
+              "RelativeToolTip": "Masky\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T22:32:02.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\App.razor",
+              "RelativeDocumentMoniker": "Masky\\App.razor",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\App.razor",
+              "RelativeToolTip": "Masky\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T22:32:00.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "service-worker.js",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\wwwroot\\service-worker.js",
               "RelativeDocumentMoniker": "Masky\\wwwroot\\service-worker.js",
@@ -63,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "Masky\\wwwroot\\index.html",
@@ -76,20 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "Masky\\Pages\\Index.razor",
               "ToolTip": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\Pages\\Index.razor",
               "RelativeToolTip": "Masky\\Pages\\Index.razor",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwC4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-15T22:37:03.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Quiz.razor",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\Pages\\Quiz.razor",
               "RelativeDocumentMoniker": "Masky\\Pages\\Quiz.razor",
@@ -97,12 +131,11 @@
               "RelativeToolTip": "Masky\\Pages\\Quiz.razor",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T10:30:43.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T10:30:43.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "Masky\\wwwroot\\css\\app.css",
@@ -110,12 +143,11 @@
               "RelativeToolTip": "Masky\\wwwroot\\css\\app.css",
               "ViewState": "AgIAAIcAAAAAAAAAAAAAAJYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-13T20:01:02.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T20:01:02.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Result.razor",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\Pages\\Result.razor",
               "RelativeDocumentMoniker": "Masky\\Pages\\Result.razor",
@@ -123,12 +155,11 @@
               "RelativeToolTip": "Masky\\Pages\\Result.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T10:19:02.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T10:19:02.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "QuizService.cs",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Programy\\Programovanie\\Masky\\Masky\\Services\\QuizService.cs",
               "RelativeDocumentMoniker": "Masky\\Services\\QuizService.cs",
@@ -136,8 +167,7 @@
               "RelativeToolTip": "Masky\\Services\\QuizService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T00:00:05.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T00:00:05.927Z"
             }
           ]
         }
